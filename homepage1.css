@@ -1,0 +1,90 @@
+img{
+    height: 90px;
+    width: 321px;
+    margin-left: -11px;
+}
+
+.container-fluid{
+    background-color:#9b2928;
+    border:2px solid black;
+    margin-top: -8px;
+    border-radius: 10px;
+}
+
+.custom-button:checked{
+    background-color: black;
+}
+
+.custom-button:hover{
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px rgb(17, 17, 17);
+}
+
+
+
+.custom-button{
+    color: white;
+   
+    background-color:#9b2928;
+    /* border-color: black; */
+}
+
+#main{
+    height: 400px;
+    width: 1000px;
+    background-color: white;
+    border: 5px solid #9b2928;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px rgb(91, 90, 90);
+}
+
+h1{
+   font-family:'Noto Serif', serif;
+   text-align: center;
+   margin-top: 50px;
+   font-size: 50px;
+   color: #9b2928;
+   font-style: ITALIC;
+}
+
+#button1{
+   margin-left: 436px;
+   margin-top: 75px;
+   padding: 10px 38px 10px 37px;
+   border-radius: 5px;
+   background-color: #337ab7;
+   color: white;
+   font-family:'Noto Serif', serif;   
+}
+
+#button2{
+    margin-left: 435px; 
+    margin-top: 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: white;
+    font-family:'Noto Serif', serif;   
+ }
+
+ #button1:hover{
+    text-decoration: underline;
+    font-size:large;
+ }
+
+ #button2:hover{
+    text-decoration: underline;
+    font-size:large;
+ }
+
+.footer{
+    background-color: #9b2928;
+    color: white; 
+    border: 2px solid darkred;   
+    font-size: 13px;
+}
+
+body{
+    background-color: rgb(193, 191, 191);
+}
