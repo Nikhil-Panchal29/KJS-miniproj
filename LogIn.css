@@ -1,0 +1,141 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(193, 191, 191);
+}
+
+
+img{
+    height: 90px;
+    width: 321px;
+    margin-left: -11px;
+}
+
+
+.container-fluid{
+    background-color:#9b2928;
+    border:2px solid black;
+    margin-top: -8px;
+    border-radius: 10px;
+    
+}
+
+
+.custom-button:checked{
+    background-color: black;
+}
+
+
+.custom-button:hover{
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px rgb(17, 17, 17);
+}
+
+
+
+.custom-button{
+    color: white;
+   
+    background-color:#9b2928;
+    
+}
+
+
+.container-fluid1{
+    height: 380px;
+    width: 813.600px;
+    background-color:white;
+    margin-top: -50px;
+    border:5px solid #9b2928;
+    border-radius: 15px;
+    padding:0px 10px 0px 10px;
+    box-shadow: 5px 5px 60px rgb(91, 90, 90);
+}
+
+h1{
+        text-align: center;
+        font-family: poppins;
+        font-weight: bold;
+        color: #9b2928;
+}
+
+
+h4{
+    font-family: poppins;
+    font-weight: bold;
+    color: #9b2928;
+    
+    
+}
+
+
+#user{
+    height: 74px;
+    width: 100%;
+    background-color:white;
+    margin-bottom: 20px;
+}
+
+
+.checkbox{
+    margin-top: 20px;
+}
+
+#FP{
+    display: inline;
+    margin-left: 520px;
+    
+    
+}
+#FP a{
+    color: #9b2928;
+}
+
+
+.btnone,.btntwo{
+    background-color: #337ab7;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:5px 20px 5px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.btnone a{
+    text-decoration: none;
+}
+
+
+.btnone:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #29679c;    
+}
+
+
+.btntwo a{
+    text-decoration: none;
+}
+
+
+.btntwo:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #29679c;    
+}
+
+
+.btns .btnone {
+    margin-right:  597px; /* Adjust the value as needed */
+}
+
+.checkbox{
+    color: #9b2928;
+    font-family: poppins;
+    font-size: large;
+}
+
