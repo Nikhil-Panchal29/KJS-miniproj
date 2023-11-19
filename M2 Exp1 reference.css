@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding:0;
+    outline: none;
+    border: none;
+    
+  
+}
+body,html{
+    /* height: 100%;
+    width: 100%; */
+    background-color: #F5E8C7;
+    /* overflow: auto; */
+    
+}
+
+
+img{
+    height: 90px;
+    width: 321px;
+    margin-left: -11px;
+    
+}
+
+.container-fluid{
+    background-color:white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.icons{
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  
+}
+
+
+#internet{
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(82, 78, 78);
+    
+}
+
+#internet:hover{
+    color: #284c9b;
+}
+
+
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    overflow: hidden;
+    width: 90px;
+    background-color: #4B527E;
+    transition: width 0.2s linear;
+    box-shadow: 0px 20px 35px rgb(0 ,0 ,0 ,0.1);
+    
+    
+}
+
+nav{
+    margin-left: -23px;
+}
+
+nav ul li a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    margin-left: -10px;
+    text-decoration: none;
+}
+
+.fas{
+   position: relative;
+   width: 70px;
+   height: 40px;
+   top: 14px;
+   left: -20px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: -10px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(139, 107, 49);
+    box-shadow: 2px 2px  black;
+}
+
+nav ul li a:active{
+    opacity: 0.7;
+}
+
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+
+
+
+
+.main{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    height: 600px;
+    width: 1350px;
+    background-color :#F5E8C7;
+}
+
+
+#p1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main a{
+
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#icon{
+    margin-right: -40px;
+    margin-left: 50px;
+}
+
+.op{
+    margin-left:50px ;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
