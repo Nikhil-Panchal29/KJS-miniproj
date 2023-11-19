@@ -5,7 +5,7 @@
 
 }
 body,html{
-    background-color: rgb(193, 191, 191);
+    background-color: #F5E8C7;
 }
 
 
@@ -14,7 +14,7 @@ body,html{
     /* height:12.2vh; */
     height: 90px;
     width: 100%;
-    background-color: #9b2928;
+    background-color: #363062;
     display: flex;
     border-bottom: 2px solid black;   
 }
@@ -41,53 +41,69 @@ body,html{
     
 }
 
-.container{
-    margin-top: 9rem;
-    height:22em;
-    width:70vw;
-    background-color:white;
-    border: 5px solid #9b2928;
-    border-radius: 10px;
-}
 
-.footer{
-    background-color: #9b2928;
-    color: white; 
-    border: 2px solid darkred;   
-    font-size: 13px;
-
-}
 
 .container{
-  display: block;
-  text-align: center;
-  box-shadow: 5px 5px 60px rgb(91, 90, 90);
-  
-}
-
-h1{ 
+    /* display: flex; */
+    margin-top: 10rem;
+    height:25em;
+    width:50vw;
+    /* background-color:white;
+    border-radius: 70%;
+    display: block;
+    text-align: center;
+    box-shadow: 5px 5px 60px rgb(91, 90, 90);
+    border: 5px solid #435585; */
     
+    border-radius: 50px 50px 0 0 / 50% 50% 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 60px rgb(91, 90, 90);
+    border: 5px solid #435585;
+    text-align: center;
+    color: white;
+    position: relative;
+    animation: fadeIn 4s ease-in-out forwards; /* Animation definition */
+    background: url(./back1.jpeg) center; /* Set your image URL here */
+}
+
+/* h1{ 
+    font-size: 45px;
     font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 2em;
+    margin-top: -4em;
+   
     
-    color: #9b2928;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* #button1{
+    margin-bottom: -10em;
+    margin-right:10rem ;
+    
+}
+#button1 a{
+    text-decoration: none;
+    color: white;
 }
 
-#button1{
-    margin-bottom: 1em;
-    
-}
-
-#button1,#button2{
-    padding: 5px 25px 5px 25px;
-    background-color: #337ab7;
+#button2{
+    padding: 5px 30px 5px 30px;
+    background-color: #435585;
     color: white;
     border-radius: 5px;
-    border: 5px solid #337ab7;
-    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid #435585;
+    
 }
-
+#button1{
+    padding: 5px 35px 5px 35px;
+    background-color: #435585;
+    color: white;
+    border-radius: 5px;
+    border: 5px solid #435585;
+    
+}
 #button1:hover{
     text-decoration: underline;
     
@@ -97,8 +113,70 @@ h1{
 #button2:hover{
     text-decoration: underline;
     
+} */
+
+
+/* .btn1{
+    margin-top: 10em;
+    background-color:#435585 ;
+    height: 30px;
+    width: 80px;
+    margin-right: 10em;
+} */
+
+.head{
+    padding-top: 30px;
+    margin-top: 70px;
+    height: 300px;
+    width: 700px;
+    
 }
 
+.head p{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
 
+#p1{
+    height:45px;
+    width: 100px;
+    background-color: #435585;
 
+    font-size: 20px;
+   margin-top: 60px;
+   margin-left: 190px;
+   padding-top: 5px;
+   border-radius: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+#p1 a{
+    text-decoration: none;
+    color: white;
+}
 
+#p2{
+    height: 45px;
+    width: 100px;
+    background: #435585;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-top:-60px;
+    padding-top: 5px;
+    border-radius:10px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+#p2 a{
+    text-decoration: none;
+    color: white;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+   
+    100% {
+        opacity: 1;
+    }
+}
