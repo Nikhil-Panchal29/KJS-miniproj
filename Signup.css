@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body{
+    /* display: flex; */
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F5E8C7;
+  }
+  
+  main{
+    justify-content: center;
+  }
+  
+  img{
+    height: 90px;
+    width: 321px;
+    margin-left: -11px;
+  }
+  
+  .container-fluid{
+    background-color:#363062;
+    border:2px solid black;
+    margin-top: -8px;
+    /* border-radius: 10px; */
+    
+  }
+  
+  .custom-button:hover{
+    background-color: black;
+    border-radius: 15px;
+    font-size: 22px;
+    box-shadow: 3px 3px 7px rgb(17, 17, 17);
+  }
+  
+  .custom-button{
+    color: white;
+   
+    background-color:#435585;
+    
+  }
+  
+  #main{
+    height: 400px;
+    width: 1000px;
+    background-color: white;
+    border: 5px solid ;
+    border-radius: 20px;
+    box-shadow: 5px 5px 60px rgb(91, 90, 90);
+  }
+  
+  .container-fluid1{
+    height:530.4px;
+    width: 900px;
+    background-color: white;
+    margin-top: 130px;
+    position: relative;
+    left: 300px;
+    /* margin-top: -50px; */
+      border:5px solid #435585;
+      border-radius: 15px;
+      padding:0px 10px 0px 10px;
+      box-shadow: 5px 5px 60px rgb(91, 90, 90);
+  }
+  
+  h1{
+    text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+    color: black;
+  }
+ 
+  h4{
+    font-family: poppins;
+    font-weight: bold;
+    color: black; 
+  }
+  
+  #email{
+    width: 100%;
+  }
+  
+  .d-email,.d-user,.d-dep,.d-pass{
+    height: 70px;
+    width: 873px;
+    margin-bottom: 20px;
+  }
+  
+  .d-btns{
+    width: 880px;
+  }
+  
+  #depart{
+    width: 873px;
+  }
+  
+  .btn1 {
+    background-color: #337ab7;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 5px 20px 5px 20px;
+    /* margin-top: 20px; */
+    border-radius: 5px;
+    
+  }
+  
+  .btn2{
+    background-color: #337ab7;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .d-btns .btn2{
+    margin-left: 695px;
+  }
+  
+  .btn1 a,.btn2 a{
+    text-decoration: none;
+  }
+  
+  .footer{
+    width: 100%;
+    background-color: #9b2928;
+    color: white; 
+    margin-top: 150px;
+    margin-bottom: -100px;
+    border: 2px solid darkred;   
+    font-size: 13px;
+  
+  }
+  
+  .btn1:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #29679c;    
+  }
+  
+  .btn2:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: #29679c;    
+  }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>signup</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="Signup.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar bg-body-tertiar fixed-top">
+        <div class="container-fluid">
+          <img src="Somaiya1.png" class="mr-auto">
+          <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-outline-danger btn-lg custom-button">Home</button>
+            <button type="button" class="btn btn-outline-danger btn-lg custom-button">Login</button>
+            <button type="button" class="btn btn-outline-danger btn-lg custom-button">Sign up</button>
+            <button type="button" class="btn btn-outline-danger btn-lg custom-button">Members</button>
+            <button type="button" class="btn btn-outline-danger btn-lg custom-button">About Us</button>
+          </div>
+        </div>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT OF WEB PAGE -->
+  <main>
+    <form action="/signup"   method="post">
+    {% csrf_token %}
+    <div class="container-fluid1">
+        <h1>SignUp</h1><hr>
+          <!-- Email -->
+          <div class="d-email">
+            <label for="Email"><h4>Email:</h4></label>
+            <input type="email" name="email" placeholder="Email" id="email" class="form-control" required>
+          </div>
+
+          <!-- Username -->
+          <div class="d-user">
+            <label for="User"><h4>Username:</h4></label>
+            <input type="text" name="username" placeholder="Username" id="user" class="form-control" required>
+          </div>
+
+          <!-- Department -->
+          <div class="d-dep">
+            <label for="Department"><h4>Department:<h4></label>
+            <select name="department" id="depart" class="form-control" required>
+                <option value="" disabled selected id="options"><h4>SELECT YOUR DEPARTMENT<h4></option>
+                <option value="opt1">COMPS</option>
+                <option value="opt2">IT</option>
+                <option value="opt3">AIDS</option>
+                <option value="opt4">EXTC</option>
+            </select>
+          </div>
+
+          <!-- Password -->
+          <div class="d-pass">
+            <label for="Password"><h4>Password:</h4></label>
+            <input type="password" name="password" placeholder="Password" id="pass" class="form-control" required>
+          </div>
+
+          <!-- Buttons -->
+          <div class="d-btns">
+            <button type="button" class="btn1">
+                <a href="/home" style="color: black;">Back</a>
+            </button>
+
+            <button type="submit" class="btn2">
+                <!-- <a href="#" style="color: white;">-->SignUp<!--</a>-->
+            </button>
+          </div>
+
+    </div>
+  </form>
+  </main> 
+
+  
+</body>
+</html>
